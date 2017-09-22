@@ -11,8 +11,12 @@ namespace source
         static void Main(string[] args)
         {
             Console.WriteLine("test");
-            Console.ReadLine();
 
+            Console.WriteLine("enter some stuff");
+            string stuff = Console.ReadLine();
+
+            Console.Write("you have entered: " + stuff);
+            Console.ReadLine();
         }
     }
 }
